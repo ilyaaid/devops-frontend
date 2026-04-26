@@ -12,14 +12,6 @@ const products: ProductServer[] = [
     price: 300000,
     createdAt: '2026-02-12T00:00:00.000Z',
     updatedAt: '2026-02-12T00:00:00.000Z',
-    params: {
-      brand: 'Mitsubishi',
-      model: 'Lancer',
-      yearOfManufacture: 2005,
-      transmission: 'automatic',
-      mileage: 200000,
-      enginePower: 98,
-    },
   },
   {
     id: 2,
@@ -29,12 +21,6 @@ const products: ProductServer[] = [
     price: 23200000,
     createdAt: '2026-02-14T00:00:00.000Z',
     updatedAt: '2026-02-14T00:00:00.000Z',
-    params: {
-      type: 'flat',
-      address: 'г. Москва, Кастанаевская улица, 42к1',
-      area: 45.2,
-      floor: 4,
-    },
   },
   {
     id: 3,
@@ -44,13 +30,6 @@ const products: ProductServer[] = [
     price: 200000,
     createdAt: '2026-03-10T00:00:00.000Z',
     updatedAt: '2026-03-10T00:00:00.000Z',
-    params: {
-      type: 'phone',
-      brand: 'Apple',
-      model: 'iPhone 17 Pro Max',
-      condition: 'new',
-      color: 'Чёрный',
-    },
   },
   {
     id: 4,
@@ -60,12 +39,6 @@ const products: ProductServer[] = [
     price: 15000,
     createdAt: '2026-03-05T00:00:00.000Z',
     updatedAt: '2026-03-05T00:00:00.000Z',
-    params: {
-      type: 'room',
-      address: 'г. Санкт-Петербург, Витебский проспект, 101к2',
-      area: 7.6,
-      floor: 2,
-    },
   },
   {
     id: 5,
@@ -75,11 +48,6 @@ const products: ProductServer[] = [
     price: 25000,
     createdAt: '2026-03-02T00:00:00.000Z',
     updatedAt: '2026-03-02T00:00:00.000Z',
-    params: {
-      type: 'misc',
-      condition: 'new',
-      color: 'Белый',
-    },
   },
   {
     id: 6,
@@ -89,7 +57,6 @@ const products: ProductServer[] = [
     price: 1200,
     createdAt: '2026-03-06T00:00:00.000Z',
     updatedAt: '2026-03-06T00:00:00.000Z',
-    params: {},
   },
   {
     id: 7,
@@ -99,7 +66,6 @@ const products: ProductServer[] = [
     price: 990000,
     createdAt: '2026-02-18T00:00:00.000Z',
     updatedAt: '2026-02-18T00:00:00.000Z',
-    params: {},
   },
   {
     id: 8,
@@ -109,12 +75,6 @@ const products: ProductServer[] = [
     price: 990000,
     createdAt: '2026-02-01T00:00:00.000Z',
     updatedAt: '2026-02-01T00:00:00.000Z',
-    params: {
-      brand: 'Lada',
-      model: 'Niva',
-      yearOfManufacture: '2020',
-      transmission: 'automatic',
-    },
   },
   {
     id: 9,
@@ -124,9 +84,6 @@ const products: ProductServer[] = [
     price: 13600000,
     createdAt: '2026-02-25T00:00:00.000Z',
     updatedAt: '2026-02-25T00:00:00.000Z',
-    params: {
-      type: 'flat',
-    },
   },
   {
     id: 10,
@@ -136,9 +93,6 @@ const products: ProductServer[] = [
     price: 25000000,
     createdAt: '2026-03-09T00:00:00.000Z',
     updatedAt: '2026-03-09T00:00:00.000Z',
-    params: {
-      type: 'house',
-    },
   },
   {
     id: 11,
@@ -148,11 +102,6 @@ const products: ProductServer[] = [
     price: 4400,
     createdAt: '2026-03-05T00:00:00.000Z',
     updatedAt: '2026-03-05T00:00:00.000Z',
-    params: {
-      type: 'misc',
-      condition: 'used',
-      color: 'Серый',
-    },
   },
   {
     id: 12,
@@ -162,9 +111,6 @@ const products: ProductServer[] = [
     price: 750000,
     createdAt: '2026-03-03T00:00:00.000Z',
     updatedAt: '2026-03-03T00:00:00.000Z',
-    params: {
-      yearOfManufacture: '2009',
-    },
   },
   {
     id: 13,
@@ -174,7 +120,6 @@ const products: ProductServer[] = [
     price: 1850,
     createdAt: '2026-02-11T00:00:00.000Z',
     updatedAt: '2026-02-11T00:00:00.000Z',
-    params: {},
   },
   {
     id: 14,
@@ -184,10 +129,6 @@ const products: ProductServer[] = [
     price: 32000000,
     createdAt: '2026-02-16T00:00:00.000Z',
     updatedAt: '2026-02-16T00:00:00.000Z',
-    params: {
-      type: 'flat',
-      area: 98,
-    },
   },
   {
     id: 15,
@@ -197,10 +138,6 @@ const products: ProductServer[] = [
     price: 32000000,
     createdAt: '2026-01-22T00:00:00.000Z',
     updatedAt: '2026-01-22T00:00:00.000Z',
-    params: {
-      type: 'house',
-      area: 331,
-    },
   },
   {
     id: 16,
@@ -210,11 +147,6 @@ const products: ProductServer[] = [
     price: 9600,
     createdAt: '2026-01-11T00:00:00.000Z',
     updatedAt: '2026-01-11T00:00:00.000Z',
-    params: {
-      type: 'misc',
-      brand: 'Bosch',
-      color: 'Чёрный',
-    },
   },
   {
     id: 17,
@@ -224,13 +156,6 @@ const products: ProductServer[] = [
     price: 300000,
     createdAt: '2026-02-17T00:00:00.000Z',
     updatedAt: '2026-02-17T00:00:00.000Z',
-    params: {
-      brand: 'BMW',
-      model: 'X1',
-      yearOfManufacture: '2016',
-      transmission: 'automatic',
-      enginePower: 190,
-    },
   },
   {
     id: 18,
@@ -240,12 +165,6 @@ const products: ProductServer[] = [
     price: 300000,
     createdAt: '2026-01-12T00:00:00.000Z',
     updatedAt: '2026-01-12T00:00:00.000Z',
-    params: {
-      brand: 'Mazda',
-      model: '6',
-      transmission: 'automatic',
-      mileage: 250000,
-    },
   },
   {
     id: 19,
@@ -255,11 +174,6 @@ const products: ProductServer[] = [
     price: 3700000,
     createdAt: '2026-02-14T00:00:00.000Z',
     updatedAt: '2026-02-14T00:00:00.000Z',
-    params: {
-      type: 'flat',
-      floor: 12,
-      area: 156,
-    },
   },
   {
     id: 20,
@@ -269,7 +183,6 @@ const products: ProductServer[] = [
     price: 9999,
     createdAt: '2026-03-11T00:00:00.000Z',
     updatedAt: '2026-03-11T00:00:00.000Z',
-    params: {},
   },
   {
     id: 21,
@@ -279,7 +192,6 @@ const products: ProductServer[] = [
     price: 11900,
     createdAt: '2026-01-08T00:00:00.000Z',
     updatedAt: '2026-01-08T00:00:00.000Z',
-    params: {},
   },
   {
     id: 22,
@@ -289,10 +201,6 @@ const products: ProductServer[] = [
     price: 11990,
     createdAt: '2026-03-07T00:00:00.000Z',
     updatedAt: '2026-03-07T00:00:00.000Z',
-    params: {
-      type: 'misc',
-      color: 'Красный',
-    },
   },
   {
     id: 23,
@@ -302,10 +210,6 @@ const products: ProductServer[] = [
     price: 100000,
     createdAt: '2026-02-26T00:00:00.000Z',
     updatedAt: '2026-02-26T00:00:00.000Z',
-    params: {
-      type: 'flat',
-      area: 60.3,
-    },
   },
   {
     id: 24,
@@ -315,10 +219,6 @@ const products: ProductServer[] = [
     price: 500000,
     createdAt: '2026-03-10T00:00:00.000Z',
     updatedAt: '2026-03-10T00:00:00.000Z',
-    params: {
-      brand: 'Lada',
-      model: 'Granta',
-    },
   },
   {
     id: 25,
@@ -328,9 +228,6 @@ const products: ProductServer[] = [
     price: 100000,
     createdAt: '2026-03-06T00:00:00.000Z',
     updatedAt: '2026-03-06T00:00:00.000Z',
-    params: {
-      type: 'flat',
-    },
   },
   {
     id: 26,
@@ -340,9 +237,6 @@ const products: ProductServer[] = [
     price: 12500000,
     createdAt: '2026-02-02T00:00:00.000Z',
     updatedAt: '2026-02-02T00:00:00.000Z',
-    params: {
-      type: 'house',
-    },
   },
   {
     id: 27,
@@ -352,13 +246,6 @@ const products: ProductServer[] = [
     price: 13990,
     createdAt: '2026-01-13T00:00:00.000Z',
     updatedAt: '2026-01-13T00:00:00.000Z',
-    params: {
-      type: 'phone',
-      brand: 'Xiaomi',
-      model: 'Redmi Note 14S',
-      condition: 'new',
-      color: 'Чёрный',
-    },
   },
   {
     id: 28,
@@ -368,11 +255,6 @@ const products: ProductServer[] = [
     price: 15000,
     createdAt: '2026-02-28T00:00:00.000Z',
     updatedAt: '2026-02-28T00:00:00.000Z',
-    params: {
-      type: 'misc',
-      brand: 'Sony',
-      color: 'Чёрный',
-    },
   },
   {
     id: 29,
@@ -382,11 +264,6 @@ const products: ProductServer[] = [
     price: 20000,
     createdAt: '2026-02-25T00:00:00.000Z',
     updatedAt: '2026-02-25T00:00:00.000Z',
-    params: {
-      type: 'misc',
-      brand: 'Sony',
-      color: 'Чёрный',
-    },
   },
   {
     id: 30,
@@ -396,9 +273,6 @@ const products: ProductServer[] = [
     price: 799,
     createdAt: '2026-03-02T00:00:00.000Z',
     updatedAt: '2026-03-02T00:00:00.000Z',
-    params: {
-      type: 'room',
-    },
   },
   {
     id: 31,
@@ -408,12 +282,6 @@ const products: ProductServer[] = [
     price: 2460000,
     createdAt: '2026-03-08T00:00:00.000Z',
     updatedAt: '2026-03-08T00:00:00.000Z',
-    params: {
-      brand: 'Mercedes-Benz',
-      model: 'Actros',
-      yearOfManufacture: 2017,
-      enginePower: 410,
-    },
   },
   {
     id: 32,
@@ -423,7 +291,6 @@ const products: ProductServer[] = [
     price: 185000,
     createdAt: '2026-03-10T00:00:00.000Z',
     updatedAt: '2026-03-10T00:00:00.000Z',
-    params: {},
   },
 ];
 
@@ -446,4 +313,47 @@ export const deleteProductById = (id: number) => {
   if (index !== -1) {
     products.splice(index, 1);
   }
+};
+
+export const updateProductById = (
+  id: number,
+  patch: Pick<ProductServer, 'category' | 'title' | 'description' | 'price'>,
+): ProductServer | undefined => {
+  const index = products.findIndex((product) => product.id === id);
+
+  if (index === -1) {
+    return undefined;
+  }
+
+  const updatedAt = new Date().toISOString();
+
+  products[index] = {
+    ...products[index],
+    ...patch,
+    updatedAt,
+  };
+
+  return products[index];
+};
+
+export const createProduct = (
+  data: Pick<ProductServer, 'category' | 'title' | 'description' | 'price'>,
+): ProductServer => {
+  const nextId =
+    products.length === 0
+      ? 1
+      : Math.max(...products.map((product) => product.id)) + 1;
+
+  const timestamp = new Date().toISOString();
+
+  const item: ProductServer = {
+    id: nextId,
+    ...data,
+    createdAt: timestamp,
+    updatedAt: timestamp,
+  };
+
+  products.push(item);
+
+  return item;
 };

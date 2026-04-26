@@ -35,6 +35,10 @@ export default defineConfig([
       typescript,
       stylistic,
     ],
+
+    rules: {
+      'no-console': 'error',
+    },
   },
 
   // Конфиг файлы проекта

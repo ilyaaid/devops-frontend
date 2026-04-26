@@ -12,7 +12,6 @@ export const ProductSchema = v.object({
   price: v.number(),
   createdAt: DateSchema,
   updatedAt: DateSchema,
-  params: v.unknown(),
 });
 
 export type ProductServer = v.InferInput<typeof ProductSchema>;

@@ -27,4 +27,9 @@ yarn dev
 yarn build
 ```
 
+Для превью сборки:
+```sh
+yarn build:serve
+```
+
 # devops-frontend

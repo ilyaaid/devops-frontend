@@ -116,18 +116,27 @@ const ProductDetails: React.FC = () => {
           <Typography variant="body2" color="text.secondary">
             Обновлено: {formatDate(product.updatedAt)}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Параметров: {Object.keys(product.params ?? {}).length}
-          </Typography>
         </Box>
 
-        <Button
-          variant="contained"
-          color="error"
-          onClick={() => setIsDeleteDialogOpen(true)}
-        >
-          Удалить товар
-        </Button>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1.5 }}>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={() =>
+              void navigate(routerUrls.product.edit.create(product.id))
+            }
+          >
+            Редактировать
+          </Button>
+
+          <Button
+            variant="outlined"
+            color="error"
+            onClick={() => setIsDeleteDialogOpen(true)}
+          >
+            Удалить товар
+          </Button>
+        </Box>
       </Box>
 
       <Dialog

@@ -19,6 +19,7 @@ export default (_, argv) => {
     output: {
       path: path.resolve(__dirname, 'build'),
       filename: 'bundle.js',
+      publicPath: '/',
       clean: true,
     },
     resolve: {
@@ -65,6 +66,7 @@ export default (_, argv) => {
     devServer: {
       port: 3030,
       hot: true,
+      historyApiFallback: true,
     },
   };
 };
